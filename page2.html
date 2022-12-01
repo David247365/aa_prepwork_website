@@ -10,7 +10,7 @@
 <body>
     <div class="bg">
         <nav>
-            <h1>Flume</h1>
+            <h1><em>Flume</em></h1>
             <ul>
                 <li><a href="index.html">Main</a></li>
                 <li><a href="page2.html">Fan Club</a></li>
@@ -20,22 +20,24 @@
         </nav>
         <form action="" method="post">
             <fieldset>
+                <legend>Join the fan club</legend>
                 <div>
-                    <label for=""></label>
-                    <input type="text" name="" id="">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
                 </div>
                 <div>
-                    <label for=""></label>
-                    <input type="text" name="" id="">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
                 </div>
                 <div>
-                    <label for=""></label>
-                    <input type="checkbox" name="" id="">
+                    <label for="news_letter">Sign up for our news letter
+                        <input type="checkbox" name="news_letter" id="news_letter">
+                    </label>
                 </div>
 
                 <div>
-                    <label for=""></label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label for="about">Tell us a little about yourself:</label>
+                    <textarea name="about" id="about" cols="30" rows="8"></textarea>
                 </div>
                 <div>
                     <button type="submit">Submit</button>
